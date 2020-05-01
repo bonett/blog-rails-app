@@ -3011,3 +3011,129 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 6158)
 
 
+Started GET "/articles" for ::1 at 2020-05-01 00:07:59 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 965)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.2ms | Allocations: 5076)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 00:12:24 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms | Allocations: 2189)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article without an ID):
+  
+app/controllers/articles_controller.rb:51:in `get_article_by_id'
+Started GET "/articles" for ::1 at 2020-05-01 00:12:34 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms | Allocations: 2228)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article without an ID):
+  
+app/controllers/articles_controller.rb:51:in `get_article_by_id'
+Started GET "/articles" for ::1 at 2020-05-01 00:12:39 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+Completed 404 Not Found in 3ms (ActiveRecord: 0.6ms | Allocations: 2228)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article without an ID):
+  
+app/controllers/articles_controller.rb:51:in `get_article_by_id'
+Started GET "/articles" for ::1 at 2020-05-01 00:13:26 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+Completed 404 Not Found in 3ms (ActiveRecord: 0.5ms | Allocations: 2191)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article without an ID):
+  
+app/controllers/articles_controller.rb:52:in `get_article_by_id'
+Started GET "/articles" for ::1 at 2020-05-01 00:13:45 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 15.9ms | Allocations: 4016)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 0.5ms | Allocations: 9106)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 00:16:23 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3980)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 9089)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 00:16:28 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of templates [0 times] (Duration: 0.0ms | Allocations: 3)
+  Rendered comments/_form.html.erb (Duration: 6.0ms | Allocations: 4792)
+  Rendered articles/show.html.erb within layouts/application (Duration: 11.8ms | Allocations: 7105)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 1.2ms | Allocations: 11601)
+
+
+Started POST "/articles/1/comments" for ::1 at 2020-05-01 00:16:33 -0500
+Processing by CommentsController#create as HTML
+  Parameters: {"authenticity_token"=>"NLmYq+qOD1n5n8dEDbPeoaR6FTvSJT/Lt9CjNhNGRUJRDCn3YAjxuHr+L8F729NtC4v1nLvLWIACSh/7U++ybA==", "comment"=>{"commenter"=>"Best", "body"=>"betts"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:25:in `get_article_by_id'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/comments_controller.rb:6:in `create'
+  [1m[36mComment Create (0.3ms)[0m  [1m[32mINSERT INTO "comments" ("commenter", "body", "article_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["commenter", "Best"], ["body", "betts"], ["article_id", 1], ["created_at", "2020-05-01 05:16:33.303657"], ["updated_at", "2020-05-01 05:16:33.303657"]]
+  ↳ app/controllers/comments_controller.rb:6:in `create'
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/comments_controller.rb:6:in `create'
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms | Allocations: 3463)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 00:16:33 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.2ms | Allocations: 126)
+  Rendered comments/_form.html.erb (Duration: 1.1ms | Allocations: 797)
+  Rendered articles/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1884)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.3ms | Allocations: 6356)
+
+
+Started DELETE "/articles/1/comments/2" for ::1 at 2020-05-01 00:16:35 -0500
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RSWroBxvECCpBwNNv6iu0xzybpMq8TfENWe6/2+QX0lWm65Xj4pMDT0A0mTnr/Vk4cHHpqXZTLzdUdNSDH2teg==", "article_id"=>"1", "id"=>"2"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:25:in `get_article_by_id'
+Filter chain halted as #<Proc:0x00007fed1bcbb0a0@/Users/wilfridobonett/.rvm/gems/ruby-2.6.3/gems/actionpack-6.0.2.2/lib/action_controller/metal/http_authentication.rb:73> rendered or redirected
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.7ms | Allocations: 782)
+
+
