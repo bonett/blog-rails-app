@@ -3201,3 +3201,1700 @@ Processing by OthersController#index as HTML
 Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 4670)
 
 
+Started GET "/others/index" for ::1 at 2020-05-01 01:06:49 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1463ms (Views: 1457.1ms | ActiveRecord: 0.0ms | Allocations: 38623)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:06:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 741)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 5402)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:09:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1118ms (Views: 1117.0ms | ActiveRecord: 0.0ms | Allocations: 77645)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:09:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7232)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:11:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms | Allocations: 12153)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/wilfridobonett/Documents/training/blog-rails-app/app/views"
+  * "/Users/wilfridobonett/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.2.2/app/views"
+  * "/Users/wilfridobonett/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.2.2/app/views"
+):
+    10:   </head>
+    11: 
+    12:   <body>
+    13:   <%= render  "layouts/navbar" %>
+    14:     <%= yield %>
+    15:   </body>
+    16: </html>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-01 01:11:57 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 97)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 8648)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:12:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 94)
+Completed 200 OK in 18ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8590)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:17:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 32.9ms | Allocations: 11921)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms | Allocations: 20437)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:18:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 1021)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 9498)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= link_to 'welcome' class="navbar-brand" %>
+  <%= image_tag("logo.png", :alt => "Logo") %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= link_to 'welcome' class="navbar-brand" %>
+3:      <%= image_tag("logo.png", :alt => "Logo") %>
+4:      <form class="form-inline">
+5:        <a class="btn btn-outline-primary" href="/login" role="button">
+6:        Login
+7:        </a>
+8:        <div style="padding-left: 10px;">
+9:          <a class="btn btn-outline-success" href="/signup" role="button">
+10:          Sign Up
+11:          </a>
+12:        </div>
+13:      </form>
+14:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/others/index" for ::1 at 2020-05-01 01:19:07 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 1021)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 9299)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= link_to 'welcome#index' class="navbar-brand" %>
+  <%= image_tag("logo.png", :alt => "Logo") %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= link_to 'welcome#index' class="navbar-brand" %>
+3:      <%= image_tag("logo.png", :alt => "Logo") %>
+4:      <form class="form-inline">
+5:        <a class="btn btn-outline-primary" href="/login" role="button">
+6:        Login
+7:        </a>
+8:        <div style="padding-left: 10px;">
+9:          <a class="btn btn-outline-success" href="/signup" role="button">
+10:          Sign Up
+11:          </a>
+12:        </div>
+13:      </form>
+14:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/" for ::1 at 2020-05-01 01:19:15 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 1021)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 9502)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= link_to 'welcome/index' class="navbar-brand" %>
+  <%= image_tag("logo.png", :alt => "Logo") %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= link_to 'welcome/index' class="navbar-brand" %>
+3:      <%= image_tag("logo.png", :alt => "Logo") %>
+4:      <form class="form-inline">
+5:        <a class="btn btn-outline-primary" href="/login" role="button">
+6:        Login
+7:        </a>
+8:        <div style="padding-left: 10px;">
+9:          <a class="btn btn-outline-success" href="/signup" role="button">
+10:          Sign Up
+11:          </a>
+12:        </div>
+13:      </form>
+14:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:19:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 4449)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 1008)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.2ms | Allocations: 14492)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= link_to 'welcome/index' class="navbar-brand" %>
+  <%= image_tag("logo.png", :alt => "Logo") %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= link_to 'welcome/index' class="navbar-brand" %>
+3:      <%= image_tag("logo.png", :alt => "Logo") %>
+4:      <form class="form-inline">
+5:        <a class="btn btn-outline-primary" href="/login" role="button">
+6:        Login
+7:        </a>
+8:        <div style="padding-left: 10px;">
+9:          <a class="btn btn-outline-success" href="/signup" role="button">
+10:          Sign Up
+11:          </a>
+12:        </div>
+13:      </form>
+14:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:20:13 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 956)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 1026)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.1ms | Allocations: 10203)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= link_to 'Inicio' class="navbar-brand" %>
+  <%= image_tag("logo.png", :alt => "Logo") %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= link_to 'Inicio' class="navbar-brand" %>
+3:      <%= image_tag("logo.png", :alt => "Logo") %>
+4:      <form class="form-inline">
+5:        <a class="btn btn-outline-primary" href="/login" role="button">
+6:        Login
+7:        </a>
+8:        <div style="padding-left: 10px;">
+9:          <a class="btn btn-outline-success" href="/signup" role="button">
+10:          Sign Up
+11:          </a>
+12:        </div>
+13:      </form>
+14:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected class, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:20:30 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 950)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 1021)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.1ms | Allocations: 10183)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= link_to 'Inicio', root_path, class="navbar-brand" %>
+  <%= image_tag("logo.png", :alt => "Logo") %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= link_to 'Inicio', root_path, class="navbar-brand" %>
+3:      <%= image_tag("logo.png", :alt => "Logo") %>
+4:      <form class="form-inline">
+5:        <a class="btn btn-outline-primary" href="/login" role="button">
+6:        Login
+7:        </a>
+8:        <div style="padding-left: 10px;">
+9:          <a class="btn btn-outline-success" href="/signup" role="button">
+10:          Sign Up
+11:          </a>
+12:        </div>
+13:      </form>
+14:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected '='
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected '='
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected '='
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected '='
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected '='
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected '='
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:20:52 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 579)
+Completed 200 OK in 45ms (Views: 40.8ms | ActiveRecord: 0.2ms | Allocations: 9759)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:21:59 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 1008)
+Completed 500 Internal Server Error in 1245ms (ActiveRecord: 0.1ms | Allocations: 69647)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo"), :class => "style_image" %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo"), :class => "style_image" %>
+3:      <form class="form-inline">
+4:        <a class="btn btn-outline-primary" href="/login" role="button">
+5:        Login
+6:        </a>
+7:        <div style="padding-left: 10px;">
+8:          <a class="btn btn-outline-success" href="/signup" role="button">
+9:          Sign Up
+10:          </a>
+11:        </div>
+12:      </form>
+13:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:22:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 719)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 995)
+Completed 500 Internal Server Error in 980ms (ActiveRecord: 0.2ms | Allocations: 69538)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo"), :class => "style_image" %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo"), :class => "style_image" %>
+3:      <form class="form-inline">
+4:        <a class="btn btn-outline-primary" href="/login" role="button">
+5:        Login
+6:        </a>
+7:        <div style="padding-left: 10px;">
+8:          <a class="btn btn-outline-success" href="/signup" role="button">
+9:          Sign Up
+10:          </a>
+11:        </div>
+12:      </form>
+13:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:22:41 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 704)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 995)
+Completed 500 Internal Server Error in 944ms (ActiveRecord: 0.2ms | Allocations: 69957)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo"), :class => "style_image" %>
+  <form class="form-inline">
+    <a class="btn btn-outline-primary" href="/login" role="button">
+    Login
+    </a>
+    <div style="padding-left: 10px;">
+      <a class="btn btn-outline-success" href="/signup" role="button">
+      Sign Up
+      </a>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo"), :class => "style_image" %>
+3:      <form class="form-inline">
+4:        <a class="btn btn-outline-primary" href="/login" role="button">
+5:        Login
+6:        </a>
+7:        <div style="padding-left: 10px;">
+8:          <a class="btn btn-outline-success" href="/signup" role="button">
+9:          Sign Up
+10:          </a>
+11:        </div>
+12:      </form>
+13:    </nav>
+  
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/_navbar.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:23:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 6.0ms | Allocations: 589)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.3ms | Allocations: 9801)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:23:54 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 467)
+Completed 200 OK in 993ms (Views: 991.2ms | ActiveRecord: 0.3ms | Allocations: 73686)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:24:00 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 467)
+Completed 200 OK in 954ms (Views: 951.2ms | ActiveRecord: 1.4ms | Allocations: 75468)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:24:10 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 467)
+Completed 200 OK in 961ms (Views: 958.9ms | ActiveRecord: 0.2ms | Allocations: 79370)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:24:16 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 467)
+Completed 200 OK in 983ms (Views: 981.0ms | ActiveRecord: 0.2ms | Allocations: 78887)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:24:22 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 467)
+Completed 200 OK in 969ms (Views: 967.9ms | ActiveRecord: 0.2ms | Allocations: 79347)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:24:29 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 713)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 467)
+Completed 200 OK in 957ms (Views: 954.9ms | ActiveRecord: 0.5ms | Allocations: 79735)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:24:37 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 467)
+Completed 200 OK in 979ms (Views: 977.5ms | ActiveRecord: 0.6ms | Allocations: 79369)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:26:00 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 956)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.8ms | Allocations: 629)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.2ms | Allocations: 10180)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:26:01 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 708)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 487)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms | Allocations: 8710)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:02 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 489)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 8841)
+
+
+Started GET "/login" for ::1 at 2020-05-01 01:26:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-05-01 01:26:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 487)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8156)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 705)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 9579)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:49 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 703)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 9567)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:51 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 527)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 8196)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 527)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 8186)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 527)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 8186)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 527)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 8193)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:26:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 527)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 8193)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:27:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 286)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 807)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 9682)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:27:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 627)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8293)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:27:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 627)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8283)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:27:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 627)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 8293)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:27:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 627)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 8285)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:27:08 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 627)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 8293)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:27:09 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 627)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8286)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:27:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 846)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 9706)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:28:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 845)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 9712)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:28:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 660)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 8331)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:28:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 8320)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:28:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 659)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 8323)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:28:37 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 8325)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:28:39 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.9ms | Allocations: 659)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 8318)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:04 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 286)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.7ms | Allocations: 844)
+Completed 200 OK in 22ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 9716)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:05 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8327)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:06 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 8318)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.9ms | Allocations: 842)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 9701)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 659)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8330)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8320)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:16 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 8322)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:23 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 286)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 843)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 9719)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:23 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 8327)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:24 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 8328)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:24 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 659)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 8320)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:24 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 8325)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:24 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 659)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 8317)
+
+
+Started GET "/welcome/index?class=style_image" for ::1 at 2020-05-01 01:29:42 -0500
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"style_image"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.7ms | Allocations: 840)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 9706)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:29:44 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 659)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 8326)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:30:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 3.6ms | Allocations: 839)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 9610)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:31:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.7ms | Allocations: 891)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms | Allocations: 9669)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:31:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 702)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8288)
+
+
+Started GET "/" for ::1 at 2020-05-01 01:31:30 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 2.9ms | Allocations: 702)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 8290)
+
+
+Started GET "/articles?class=btn+btn-outline-danger" for ::1 at 2020-05-01 01:31:31 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-outline-danger"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 706)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.1ms | Allocations: 9738)
+
+
+Started GET "/articles?class=btn+btn-outline-danger" for ::1 at 2020-05-01 01:31:43 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-outline-danger"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 867)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.1ms | Allocations: 10418)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 01:31:45 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 707)
+Completed 200 OK in 25ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 8858)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:31:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 690)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 8951)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 01:31:51 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.8ms | Allocations: 706)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 8209)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:31:52 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.8ms | Allocations: 694)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.2ms | Allocations: 8916)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:32:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 1060)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.1ms | Allocations: 10589)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'Other Page', controller: 'others' %>
+      <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-success" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome' %>
+6:          <%= link_to 'Other Page', controller: 'others' %>
+7:          <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-success" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:32:43 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1097)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 1047)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.8ms | Allocations: 20833)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'Other Page', controller: 'others' %>
+      <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-success" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome' %>
+6:          <%= link_to 'Other Page', controller: 'others' %>
+7:          <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-success" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:32:43 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 771)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 1126)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.2ms | Allocations: 21782)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'Other Page', controller: 'others' %>
+      <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-success" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome' %>
+6:          <%= link_to 'Other Page', controller: 'others' %>
+7:          <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-success" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:32:49 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 1060)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.2ms | Allocations: 10595)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'Other Page', controller: 'others' %>
+      <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-sucess" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome' %>
+6:          <%= link_to 'Other Page', controller: 'others' %>
+7:          <%= link_to 'Latest post', controller: 'articles', class: => "btn btn-outline-sucess" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected =>
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:33:07 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.8ms | Allocations: 882)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.1ms | Allocations: 10437)
+
+
+Started GET "/articles?class=btn+btn-outline-sucess" for ::1 at 2020-05-01 01:33:09 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-outline-sucess"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 702)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.2ms | Allocations: 8923)
+
+
+Started GET "/articles?class=btn+btn-outline-sucess" for ::1 at 2020-05-01 01:33:54 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-outline-sucess"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 954)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 1060)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.2ms | Allocations: 10594)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome', root_path %>
+      <%= link_to 'Other Page', controller: 'others',menus_path %>
+      <%= link_to 'Latest post', controller: 'articles', menus_path, :class => "btn btn-outline-sucess" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome', root_path %>
+6:          <%= link_to 'Other Page', controller: 'others',menus_path %>
+7:          <%= link_to 'Latest post', controller: 'articles', menus_path, :class => "btn btn-outline-sucess" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:33:57 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 1045)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms | Allocations: 9245)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome', root_path %>
+      <%= link_to 'Other Page', controller: 'others',menus_path %>
+      <%= link_to 'Latest post', controller: 'articles', menus_path, :class => "btn btn-outline-sucess" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome', root_path %>
+6:          <%= link_to 'Other Page', controller: 'others',menus_path %>
+7:          <%= link_to 'Latest post', controller: 'articles', menus_path, :class => "btn btn-outline-sucess" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:34:05 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 1058)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.2ms | Allocations: 10587)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'Other Page', controller: 'others',menus_path %>
+      <%= link_to 'Latest post', controller: 'articles', menus_path, :class => "btn btn-outline-sucess" %>
+    </div>
+  </form>
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:      <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+3:      <form class="form-inline">
+4:        <div style="padding-left: 10px;">
+5:          <%= link_to 'Home', controller: 'welcome' %>
+6:          <%= link_to 'Other Page', controller: 'others',menus_path %>
+7:          <%= link_to 'Latest post', controller: 'articles', menus_path, :class => "btn btn-outline-sucess" %>
+8:        </div>
+9:      </form>
+10:    </nav>
+  
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/_navbar.html.erb:6: syntax error, unexpected ')', expecting =>
+app/views/layouts/_navbar.html.erb:7: syntax error, unexpected ',', expecting =>
+app/views/layouts/_navbar.html.erb:12: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.erb:13
+Started GET "/articles" for ::1 at 2020-05-01 01:34:33 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 6.6ms | Allocations: 867)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.1ms | Allocations: 10417)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:35:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 882)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.2ms | Allocations: 10432)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 01:35:28 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 702)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.5ms | Allocations: 8924)
+
+
+Started GET "/articles?class=btn+btn-success" for ::1 at 2020-05-01 01:35:29 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 702)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.1ms | Allocations: 8924)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 01:35:30 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 718)
+Completed 200 OK in 24ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 8878)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 01:35:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 702)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 8961)
+
+
+Started GET "/articles?class=btn+btn-success" for ::1 at 2020-05-01 01:35:32 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 706)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms | Allocations: 8927)
+
+
+Started GET "/articles?class=btn+btn-success" for ::1 at 2020-05-01 01:35:34 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.7ms | Allocations: 702)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.2ms | Allocations: 8913)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 01:35:34 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 718)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 8219)
+
+
+Started GET "/articles?class=btn+btn-success" for ::1 at 2020-05-01 01:35:35 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 702)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.1ms | Allocations: 8910)
+
+
+Started GET "/articles?class=btn+btn-success" for ::1 at 2020-05-01 01:35:43 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 887)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.1ms | Allocations: 10443)
+
+
+Started GET "/articles?class=btn+btn-success" for ::1 at 2020-05-01 01:35:44 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 702)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.1ms | Allocations: 8918)
+
+
+Started GET "/articles?class=btn-success" for ::1 at 2020-05-01 01:35:45 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 702)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.3ms | Allocations: 8919)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 01:35:45 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 718)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 8865)
+
+
+Started GET "/articles?class=btn-success" for ::1 at 2020-05-01 01:35:46 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.7ms | Allocations: 706)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.2ms | Allocations: 8929)
+
+
+Started GET "/articles?class=btn-success" for ::1 at 2020-05-01 01:35:47 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 702)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.2ms | Allocations: 8918)
+
+
+Started GET "/articles?class=btn-success" for ::1 at 2020-05-01 01:35:47 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 702)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.1ms | Allocations: 8913)
+
+
+Started GET "/articles?class=btn-success" for ::1 at 2020-05-01 01:35:47 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 702)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.1ms | Allocations: 8914)
+
+
+Started GET "/articles?class=btn-success" for ::1 at 2020-05-01 01:36:17 -0500
+Processing by ArticlesController#index as HTML
+  Parameters: {"class"=>"btn-success"}
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 954)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 867)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.2ms | Allocations: 10422)
+
+

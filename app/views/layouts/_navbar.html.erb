@@ -1,0 +1,10 @@
+<nav class="navbar navbar-light bg-light">
+  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
+  <form class="form-inline">
+    <div style="padding-left: 10px;">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'Other Page', controller: 'others' %>
+      <%= link_to 'Latest post', controller: 'articles' %>
+    </div>
+  </form>
+</nav>
