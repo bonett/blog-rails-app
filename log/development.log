@@ -1718,3 +1718,982 @@ Processing by ArticlesController#create as HTML
 Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5968)
 
 
+Started GET "/articles" for ::1 at 2020-04-30 22:10:48 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 4187)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.6ms | Allocations: 9413)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:11:23 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 951)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.1ms | Allocations: 5764)
+
+
+Started GET "/articles/2" for ::1 at 2020-04-30 22:11:24 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:31:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 179)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 4814)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:11:26 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 726)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 4616)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:11:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 952)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.1ms | Allocations: 5765)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:11:43 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1633)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2158)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    2:  
+    3:   <% if @article.errors.any? %>
+    4:     <div id="error_explanation">
+    5:       <h2>
+    6:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:3
+app/views/articles/edit.html.erb:1
+Started GET "/articles" for ::1 at 2020-04-30 22:12:39 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 950)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.9ms | Allocations: 5772)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:12:39 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 731)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 4621)
+
+
+Started GET "/articles/2" for ::1 at 2020-04-30 22:12:40 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:31:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 4744)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:12:41 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1631)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2154)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    2:  
+    3:   <% if @article.errors.any? %>
+    4:     <div id="error_explanation">
+    5:       <h2>
+    6:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:3
+app/views/articles/edit.html.erb:1
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:13:36 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1631)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2760)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    2:  
+    3:   <% if @article.errors.any? %>
+    4:     <div id="error_explanation">
+    5:       <h2>
+    6:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:3
+app/views/articles/edit.html.erb:1
+Started GET "/articles" for ::1 at 2020-04-30 22:14:12 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 950)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.2ms | Allocations: 5164)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-30 22:14:14 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1079)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5119)
+
+
+Started POST "/articles" for ::1 at 2020-04-30 22:14:15 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"mxzUFI0NKBDeC0tTGshvK9LQt5uX6cWM4Xjwn6Vr2ONni9PNLzG/DZyxBNzjKW+ZngEr8dcfhif2OSzrDkrgEQ==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save Article"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 966)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5975)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-30 22:15:01 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1036)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 5862)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:15:02 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 951)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms | Allocations: 4979)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:15:03 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1617)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2142)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:16:39 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1616)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2747)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @articles.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:16:45 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1616)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2747)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:16 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1190)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2321)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    1: <h1>Edit Article</h1>
+    2:  
+    3: <%= form_with @article do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+  
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:22 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1616)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2747)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:43 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1621)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @articles.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@articles.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:44 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1687)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @articles.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@articles.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:44 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1272)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1686)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @articles.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@articles.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:45 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1686)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @articles.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@articles.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:17:45 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1272)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1686)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @articles.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@articles.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:18:07 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1577)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2714)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:18:07 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1687)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:21:34 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1577)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2714)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:21:58 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1618)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:         <div id="error_explanation">
+    7:             <h2><%= pluralize(@article.errors.count, "error") %> prohibited this article from being saved:</h2>
+    8:             <ul>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:18 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1623)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2754)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:19 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1687)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:19 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2160)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1275)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2303)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1272)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2409)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1998)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:20 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1272)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2150)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:23:21 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1272)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2250)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:24:32 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1233)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1806)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:24:52 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1845)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:24:52 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1686)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles/2/edit" for ::1 at 2020-04-30 22:24:58 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1272)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1845)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article, local: true) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:         <h2>
+    8:             <%= pluralize(@article.errors.count, "error") %>
+  
+app/views/articles/edit.html.erb:5
+app/views/articles/edit.html.erb:3
+Started GET "/articles" for ::1 at 2020-04-30 22:30:50 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 4276)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 0.6ms | Allocations: 9503)
+
+
+Started GET "/articles/1" for ::1 at 2020-04-30 22:30:52 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:31:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 14.7ms | ActiveRecord: 0.3ms | Allocations: 4859)
+
+
+Started GET "/articles/1/edit" for ::1 at 2020-04-30 22:30:53 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.0ms | Allocations: 1734)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2052)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2578)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with model: @article, local: true do |form| %>
+    2:  
+    3:   <% if @article.errors.any? %>
+    4:     <div id="error_explanation">
+    5:       <h2>
+    6:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/_form.html.erb:3
+app/views/articles/_form.html.erb:1
+app/views/articles/edit.html.erb:4
+Started GET "/articles/1" for ::1 at 2020-04-30 22:30:56 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:31:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 4461)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:30:57 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 726)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 4623)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-30 22:30:57 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.6ms | Allocations: 788)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 987)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 5028)
+
+
+Started POST "/articles" for ::1 at 2020-04-30 22:30:59 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"QWc+z7yQwA5ES951E83ep36uW7JMxYhaBLjzMxywwEO98DkWHqxXEwbxkfrqLN4VMn/H2Awzy/ET+S9Ht5H4sQ==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Create Article"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 987)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1072)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6081)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:31:01 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 727)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.2ms | Allocations: 4614)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-30 22:31:04 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.6ms | Allocations: 707)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 4692)
+
+
+Started POST "/articles" for ::1 at 2020-04-30 22:31:05 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"3CvhhCscXPJpYtot3mXjseL/yDPd6/OrFOXiBDwfOUwgvOZdiSDL7yvYlaInhOMDri5UWZ0dsAADpD5wlz4Bvg==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Create Article"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.2ms | Allocations: 985)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1070)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 6052)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:38:17 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3708)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.2ms | Allocations: 8155)
+
+
+Started GET "/articles/new" for ::1 at 2020-04-30 22:38:19 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.2ms | Allocations: 761)
+  Rendered articles/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 846)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4743)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:38:20 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.2ms | Allocations: 4618)
+
+
+Started GET "/articles/1" for ::1 at 2020-04-30 22:38:21 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:48:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 68)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 4564)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:38:22 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 4618)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:39:34 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/wilfridobonett/Documents/training/blog-rails-app/app/controllers/articles_controller.rb:50: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/articles_controller.rb:50: syntax error, unexpected end, expecting end-of-input
+app/controllers/articles_controller.rb:50: syntax error, unexpected end, expecting end-of-input
+app/controllers/articles_controller.rb:50: syntax error, unexpected end, expecting end-of-input
+Started GET "/articles" for ::1 at 2020-04-30 22:39:40 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.8ms | Allocations: 8516)
+
+
+Started GET "/articles/1" for ::1 at 2020-04-30 22:39:41 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:7:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 69)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 1.7ms | Allocations: 4563)
+
+
+Started GET "/articles/1" for ::1 at 2020-04-30 22:43:21 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:51:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 5.6ms | ActiveRecord: 0.8ms | Allocations: 8464)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:43:22 -0500
+Processing by ArticlesController#index as HTML
+Completed 404 Not Found in 2ms (ActiveRecord: 0.0ms | Allocations: 610)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article without an ID):
+  
+app/controllers/articles_controller.rb:51:in `get_article_by_id'
+Started GET "/articles" for ::1 at 2020-04-30 22:43:51 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4029)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.6ms | Allocations: 8489)
+
+
+Started GET "/articles/1" for ::1 at 2020-04-30 22:43:53 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:52:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 69)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 4569)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:43:53 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:14
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.6ms | Allocations: 4614)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:44:47 -0500
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4342)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.6ms | Allocations: 9564)
+
+
+Started GET "/articles" for ::1 at 2020-04-30 22:45:00 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:11
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1068)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.2ms | Allocations: 5888)
+
+
