@@ -1,30 +1,44 @@
-<%= form_with model: @article, local: true do |form| %>
- 
-  <% if @article.errors.any? %>
-    <div id="error_explanation">
-      <h2>
-        <%= pluralize(@article.errors.count, "error") %> prohibited
-        this article from being saved:
-      </h2>
-      <ul>
-        <% @article.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
+<div class="form">
+  <%= form_with model: @article, local: true do |form| %>
+    
+    <div class="control-group">
+      <h1>Form</h1>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :title, class: "control-label" %>
+      <div class="controls">
+        <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :description, class: "control-label"%>
+      <div class="controls">
+        <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+      </div>
+    </div>
+
+    <% if @article.errors.any? %>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <h2>
+          <%= pluralize(@article.errors.count, "error") %> prohibited
+          this article from being saved:
+        </h2>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <hr>
+        <ul>
+          <% @article.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    
+    <div class="form-actions">
+      <%= form.submit 'Save', class: 'btn btn-primary' %>
     </div>
   <% end %>
- 
-  <p>
-    <%= form.label :title %><br>
-    <%= form.text_field :title %>
-  </p>
- 
-  <p>
-    <%= form.label :text %><br>
-    <%= form.text_area :text %>
-  </p>
- 
-  <p>
-    <%= form.submit %>
-  </p>
-<% end %>
+</div>
