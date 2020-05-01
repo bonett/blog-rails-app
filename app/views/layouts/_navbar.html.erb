@@ -1,10 +1,10 @@
-<nav class="navbar navbar-light bg-light">
-  <%= image_tag("logo.png", :alt => "Logo", :class => "style_image") %>
-  <form class="form-inline">
-    <div style="padding-left: 10px;">
+<nav class="navbar navbar-light">
+  <div class="container">
+    <span class="navbar-brand mb-0 h1">Blog</span>
+    <div class="justify-content-end">
       <%= link_to 'Home', controller: 'welcome' %>
-      <%= link_to 'Other Page', controller: 'others' %>
-      <%= link_to 'Latest post', controller: 'articles' %>
+      <%= link_to 'About', controller: 'others' %>
+      <%= link_to('Last articles', articles_path, :class => 'btn btn-large btn-primary')  %>
     </div>
-  </form>
+  </div>
 </nav>
