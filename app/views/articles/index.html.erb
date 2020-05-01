@@ -20,7 +20,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title"><%= article.title %></h5>
-              <p class="card-text"><%= article.text %></p>
+              <p class="card-text"><%= truncate(article.text, length: 160, omission: '... (continued)') %></p>
               <hr>
               <%= link_to 'Details', article_path(article) %>
               <%= link_to 'Edit', edit_article_path(article) %>

@@ -10804,3 +10804,2271 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.3ms | Allocations: 12641)
 
 
+Started GET "/articles" for ::1 at 2020-05-01 12:56:46 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 2.6ms | Allocations: 466)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.2ms | Allocations: 9107)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 12:56:49 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8550)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 12:56:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 8543)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 12:56:53 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 466)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 7866)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 12:56:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 7849)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 12:58:41 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 3.2ms | Allocations: 466)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 7852)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 12:58:43 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 7858)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 12:59:06 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 466)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 7853)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 12:59:08 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 838)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 466)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.3ms | Allocations: 8701)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:27:49 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 6.9ms | Allocations: 1017)
+  Rendered articles/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.9ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 3.4ms | Allocations: 571)
+Completed 200 OK in 72ms (Views: 64.3ms | ActiveRecord: 0.0ms | Allocations: 10792)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:27:51 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 701)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 801)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 8699)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:27:59 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"ezefQmkPW3kw1qScQYpcmfEQdTiSGrDJkGA2m1dBzVNoiZq1+uoHVKTRdbUZjQcuDCPcDR0yy7F4Vl82NKw/YA==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Create Article"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 979)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1070)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 24ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 10040)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:28:01 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 39.2ms | Allocations: 1122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 52ms (Views: 48.4ms | ActiveRecord: 0.7ms | Allocations: 9125)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:28:02 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 5.3ms | Allocations: 699)
+  Rendered articles/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 8685)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:28:52 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 306.0ms | Allocations: 185123)
+  Rendered articles/new.html.erb within layouts/application (Duration: 307.2ms | Allocations: 185498)
+Completed 500 Internal Server Error in 312ms (ActiveRecord: 0.0ms | Allocations: 186717)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fe1d87a6018>:0x00007fe1d919ce78>):
+    3:         <legend>User Registration</legend>
+    4: 
+    5:         <div class="control-group">
+    6:           <%= f.label :name, class: "control-label" %>
+    7:           <div class="controls">
+    8:             <%= f.text_field :name %></p>
+    9:           </div>
+  
+app/views/articles/_form.html.erb:6
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:29:35 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 268.0ms | Allocations: 185109)
+  Rendered articles/new.html.erb within layouts/application (Duration: 269.4ms | Allocations: 185481)
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 0.0ms | Allocations: 186700)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fe1d8d0f720>:0x00007fe1d8d13f00>):
+    3:     <legend>User Registration</legend>
+    4: 
+    5:     <div class="control-group">
+    6:       <%= f.label :title, class: "control-label" %>
+    7:       <div class="controls">
+    8:         <%= f.text_field :title %></p>
+    9:       </div>
+  
+app/views/articles/_form.html.erb:6
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:29:58 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 359.2ms | Allocations: 185311)
+  Rendered articles/new.html.erb within layouts/application (Duration: 360.3ms | Allocations: 185681)
+Completed 500 Internal Server Error in 364ms (ActiveRecord: 0.0ms | Allocations: 186900)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fe1dd9d5e10>:0x00007fe1dd9de5b0>):
+    10:     </div>
+    11: 
+    12:     <div class="form-actions">
+    13:       <%= f.submit %>
+    14:     </div>
+    15:   </fieldset>
+    16:   <p>
+  
+app/views/articles/_form.html.erb:13
+app/views/articles/_form.html.erb:1
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:30:08 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.6ms | Allocations: 1258)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1630)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 2.9ms | Allocations: 571)
+Completed 200 OK in 57ms (Views: 38.6ms | ActiveRecord: 0.0ms | Allocations: 11048)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:31:04 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.6ms | Allocations: 1267)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1633)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 3.2ms | Allocations: 571)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 11032)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:31:59 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 1070)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1436)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 571)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 10840)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:32:34 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.3ms | Allocations: 1098)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1464)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 10862)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:33:12 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.1ms | Allocations: 1366)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1735)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2946)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with model: @article, local: true do |form| %>
+
+  <div class="control-group">
+    <%= form.label :title, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_field :title, class: "form-control"%></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= form.label :description, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_area :text, class: "form-control" %></p>
+    </div>
+  </div>
+
+  <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+   
+  <p>
+    <%= form.submit, class: "btn btn-success" %>
+  </p>
+<% end %>
+):
+1:    <%= form_with model: @article, local: true do |form| %>
+2:    
+3:      <div class="control-group">
+4:        <%= form.label :title, class: "control-label" %>
+5:        <div class="controls">
+6:          <%= form.text_field :title, class: "form-control"%></p>
+7:        </div>
+8:      </div>
+9:    
+10:      <div class="control-group">
+11:        <%= form.label :description, class: "control-label" %>
+12:        <div class="controls">
+13:          <%= form.text_area :text, class: "form-control" %></p>
+14:        </div>
+15:      </div>
+16:    
+17:      <% if @article.errors.any? %>
+18:        <div id="error_explanation">
+19:          <h2>
+20:            <%= pluralize(@article.errors.count, "error") %> prohibited
+21:            this article from being saved:
+22:          </h2>
+23:          <ul>
+24:            <% @article.errors.full_messages.each do |msg| %>
+25:              <li><%= msg %></li>
+26:            <% end %>
+27:          </ul>
+28:        </div>
+29:      <% end %>
+30:       
+31:      <p>
+32:        <%= form.submit, class: "btn btn-success" %>
+33:      </p>
+34:    <% end %>
+  
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:33:38 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.0ms | Allocations: 1367)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1737)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2953)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with model: @article, local: true do |form| %>
+
+  <div class="control-group">
+    <%= form.label :title, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_field :title, class: "form-control"%></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= form.label :description, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_area :text, class: "form-control" %></p>
+    </div>
+  </div>
+
+  <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+   
+  <div class="actions">
+    <%= form.submit, class: "btn btn-success" %>
+  </div>
+<% end %>
+):
+1:    <%= form_with model: @article, local: true do |form| %>
+2:    
+3:      <div class="control-group">
+4:        <%= form.label :title, class: "control-label" %>
+5:        <div class="controls">
+6:          <%= form.text_field :title, class: "form-control"%></p>
+7:        </div>
+8:      </div>
+9:    
+10:      <div class="control-group">
+11:        <%= form.label :description, class: "control-label" %>
+12:        <div class="controls">
+13:          <%= form.text_area :text, class: "form-control" %></p>
+14:        </div>
+15:      </div>
+16:    
+17:      <% if @article.errors.any? %>
+18:        <div id="error_explanation">
+19:          <h2>
+20:            <%= pluralize(@article.errors.count, "error") %> prohibited
+21:            this article from being saved:
+22:          </h2>
+23:          <ul>
+24:            <% @article.errors.full_messages.each do |msg| %>
+25:              <li><%= msg %></li>
+26:            <% end %>
+27:          </ul>
+28:        </div>
+29:      <% end %>
+30:       
+31:      <div class="actions">
+32:        <%= form.submit, class: "btn btn-success" %>
+33:      </div>
+34:    <% end %>
+  
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:33:55 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 1367)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1742)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 2960)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with model: @article, local: true do |form| %>
+
+  <div class="control-group">
+    <%= form.label :title, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_field :title, class: "form-control"%></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= form.label :description, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_area :text, class: "form-control" %></p>
+    </div>
+  </div>
+
+  <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+   
+  <div class="form-actions">
+    <%= form.submit, class: "btn btn-success" %>
+  </div>
+<% end %>
+):
+1:    <%= form_with model: @article, local: true do |form| %>
+2:    
+3:      <div class="control-group">
+4:        <%= form.label :title, class: "control-label" %>
+5:        <div class="controls">
+6:          <%= form.text_field :title, class: "form-control"%></p>
+7:        </div>
+8:      </div>
+9:    
+10:      <div class="control-group">
+11:        <%= form.label :description, class: "control-label" %>
+12:        <div class="controls">
+13:          <%= form.text_area :text, class: "form-control" %></p>
+14:        </div>
+15:      </div>
+16:    
+17:      <% if @article.errors.any? %>
+18:        <div id="error_explanation">
+19:          <h2>
+20:            <%= pluralize(@article.errors.count, "error") %> prohibited
+21:            this article from being saved:
+22:          </h2>
+23:          <ul>
+24:            <% @article.errors.full_messages.each do |msg| %>
+25:              <li><%= msg %></li>
+26:            <% end %>
+27:          </ul>
+28:        </div>
+29:      <% end %>
+30:       
+31:      <div class="form-actions">
+32:        <%= form.submit, class: "btn btn-success" %>
+33:      </div>
+34:    <% end %>
+  
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:34:04 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1367)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1737)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2953)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with model: @article, local: true do |form| %>
+
+  <div class="control-group">
+    <%= form.label :title, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_field :title, class: "form-control"%></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= form.label :description, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_area :text, class: "form-control" %></p>
+    </div>
+  </div>
+
+  <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+   
+  <div class="form-actions">
+    <%= form.submit, :class "btn btn-success" %>
+  </div>
+<% end %>
+):
+1:    <%= form_with model: @article, local: true do |form| %>
+2:    
+3:      <div class="control-group">
+4:        <%= form.label :title, class: "control-label" %>
+5:        <div class="controls">
+6:          <%= form.text_field :title, class: "form-control"%></p>
+7:        </div>
+8:      </div>
+9:    
+10:      <div class="control-group">
+11:        <%= form.label :description, class: "control-label" %>
+12:        <div class="controls">
+13:          <%= form.text_area :text, class: "form-control" %></p>
+14:        </div>
+15:      </div>
+16:    
+17:      <% if @article.errors.any? %>
+18:        <div id="error_explanation">
+19:          <h2>
+20:            <%= pluralize(@article.errors.count, "error") %> prohibited
+21:            this article from being saved:
+22:          </h2>
+23:          <ul>
+24:            <% @article.errors.full_messages.each do |msg| %>
+25:              <li><%= msg %></li>
+26:            <% end %>
+27:          </ul>
+28:        </div>
+29:      <% end %>
+30:       
+31:      <div class="form-actions">
+32:        <%= form.submit, :class "btn btn-success" %>
+33:      </div>
+34:    <% end %>
+  
+app/views/articles/_form.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting '.' or &. or :: or '['
+app/views/articles/_form.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting '.' or &. or :: or '['
+app/views/articles/_form.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting '.' or &. or :: or '['
+app/views/articles/_form.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting '.' or &. or :: or '['
+app/views/articles/_form.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting '.' or &. or :: or '['
+app/views/articles/_form.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting '.' or &. or :: or '['
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:34:11 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.0ms | Allocations: 1367)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1737)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2953)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with model: @article, local: true do |form| %>
+
+  <div class="control-group">
+    <%= form.label :title, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_field :title, class: "form-control"%></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= form.label :description, class: "control-label" %>
+    <div class="controls">
+      <%= form.text_area :text, class: "form-control" %></p>
+    </div>
+  </div>
+
+  <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+   
+  <div class="form-actions">
+    <%= form.submit, class: "btn btn-success" %>
+  </div>
+<% end %>
+):
+1:    <%= form_with model: @article, local: true do |form| %>
+2:    
+3:      <div class="control-group">
+4:        <%= form.label :title, class: "control-label" %>
+5:        <div class="controls">
+6:          <%= form.text_field :title, class: "form-control"%></p>
+7:        </div>
+8:      </div>
+9:    
+10:      <div class="control-group">
+11:        <%= form.label :description, class: "control-label" %>
+12:        <div class="controls">
+13:          <%= form.text_area :text, class: "form-control" %></p>
+14:        </div>
+15:      </div>
+16:    
+17:      <% if @article.errors.any? %>
+18:        <div id="error_explanation">
+19:          <h2>
+20:            <%= pluralize(@article.errors.count, "error") %> prohibited
+21:            this article from being saved:
+22:          </h2>
+23:          <ul>
+24:            <% @article.errors.full_messages.each do |msg| %>
+25:              <li><%= msg %></li>
+26:            <% end %>
+27:          </ul>
+28:        </div>
+29:      <% end %>
+30:       
+31:      <div class="form-actions">
+32:        <%= form.submit, class: "btn btn-success" %>
+33:      </div>
+34:    <% end %>
+  
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/_form.html.erb:32: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/new.html.erb:8
+Started GET "/articles/new" for ::1 at 2020-05-01 13:35:01 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 969)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1338)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 10753)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:35:49 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 965)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1331)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.1ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 571)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 10742)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:36:21 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 964)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 2.8ms | Allocations: 571)
+Completed 200 OK in 31ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 10727)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:36:36 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 979)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1344)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 28ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 10747)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:36:37 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.8ms | Allocations: 619)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 719)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 8619)
+
+
+Started GET "/articles/new?authenticity_token=xAMGkDPmuKNxcgnTuMcF3hSaA4WPm63rTMYdYHXzi%2FHXvQNnoAPkjuV12PrgwF5p6amqsACz1pOk8HTNFh55wg%3D%3D&article%5Btitle%5D=&article%5Btext%5D=&commit=Update+Post" for ::1 at 2020-05-01 13:36:39 -0500
+Processing by ArticlesController#new as HTML
+  Parameters: {"authenticity_token"=>"xAMGkDPmuKNxcgnTuMcF3hSaA4WPm63rTMYdYHXzi/HXvQNnoAPkjuV12PrgwF5p6amqsACz1pOk8HTNFh55wg==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Update Post"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.0ms | Allocations: 615)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 467)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 8605)
+
+
+Started GET "/articles/new?authenticity_token=xAMGkDPmuKNxcgnTuMcF3hSaA4WPm63rTMYdYHXzi%2FHXvQNnoAPkjuV12PrgwF5p6amqsACz1pOk8HTNFh55wg%3D%3D&article%5Btitle%5D=&article%5Btext%5D=&commit=Update+Post" for ::1 at 2020-05-01 13:36:45 -0500
+Processing by ArticlesController#new as HTML
+  Parameters: {"authenticity_token"=>"xAMGkDPmuKNxcgnTuMcF3hSaA4WPm63rTMYdYHXzi/HXvQNnoAPkjuV12PrgwF5p6amqsACz1pOk8HTNFh55wg==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Update Post"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 964)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1335)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 10740)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:36:45 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"A9vBb125/E8cE4snQSoI/AVg5N9ch3joi6nS72t+qCwQZcSYzlygYogUWg4ZLVNL+FNN6tOvA5Bjn7tCCJNaHw==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Update Post"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 901)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 997)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 9970)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:37:25 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 571)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.2ms | Allocations: 10463)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:37:27 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 979)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1344)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 2.4ms | Allocations: 466)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 9380)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:37:48 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.1ms | Allocations: 991)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1356)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 349)
+  Rendered layouts/_footer.html.erb (Duration: 2.7ms | Allocations: 571)
+Completed 200 OK in 1258ms (Views: 1255.4ms | ActiveRecord: 0.0ms | Allocations: 72854)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:38:00 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 619)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 719)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 1.9ms | Allocations: 467)
+Completed 200 OK in 1009ms (Views: 1007.1ms | ActiveRecord: 0.0ms | Allocations: 71562)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:39:27 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 466)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.1ms | Allocations: 9110)
+
+
+Started GET "/articles/1/edit" for ::1 at 2020-05-01 13:39:29 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.2ms | Allocations: 675)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.2ms | Allocations: 9428)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:39:45 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 833)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.2ms | Allocations: 8683)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:40:13 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 571)
+Completed 200 OK in 27ms (Views: 22.8ms | ActiveRecord: 0.5ms | Allocations: 10473)
+
+
+Started GET "/articles/1/edit" for ::1 at 2020-05-01 13:40:15 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.9ms | Allocations: 1023)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 203)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.4ms | Allocations: 9925)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:40:17 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 833)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.2ms | Allocations: 8683)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:40:18 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 6.4ms | Allocations: 619)
+  Rendered articles/new.html.erb within layouts/application (Duration: 8.6ms | Allocations: 845)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 8887)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:40:20 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 834)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.2ms | Allocations: 8691)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:41:07 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.1ms | Allocations: 10475)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:41:08 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 4.2ms | Allocations: 993)
+  Rendered articles/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 466)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 9397)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:41:27 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.1ms | Allocations: 1002)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1367)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 10768)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:41:28 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 634)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 191)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 466)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 8629)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:41:38 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 1002)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1367)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 349)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 571)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 10775)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:42:03 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1377)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 571)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 10780)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:42:08 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.8ms | Allocations: 1012)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1377)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 10772)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:42:15 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 10776)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:42:25 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 1012)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1377)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 10771)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:44:26 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.9ms | Allocations: 1429)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1797)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3006)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="form">
+  <%= form_with model: @article, local: true do |form| %>
+    
+    <div class="control-group">
+      <%= if article.title %>
+        <h1>Edit Blog</h1>
+      <% end %>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :title, class: "control-label" %>
+      <div class="controls">
+        <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :description, class: "control-label"%>
+      <div class="controls">
+        <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+      </div>
+    </div>
+
+    <% if @article.errors.any? %>
+      <div id="error_explanation">
+        <h2>
+          <%= pluralize(@article.errors.count, "error") %> prohibited
+          this article from being saved:
+        </h2>
+        <ul>
+          <% @article.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    
+    <div class="form-actions">
+      <%= form.submit 'Update Post', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
+):
+1:    <div class="form">
+2:      <%= form_with model: @article, local: true do |form| %>
+3:        
+4:        <div class="control-group">
+5:          <%= if article.title %>
+6:            <h1>Edit Blog</h1>
+7:          <% end %>
+8:        </div>
+9:    
+10:        <div class="control-group">
+11:          <%= form.label :title, class: "control-label" %>
+12:          <div class="controls">
+13:            <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+14:          </div>
+15:        </div>
+16:    
+17:        <div class="control-group">
+18:          <%= form.label :description, class: "control-label"%>
+19:          <div class="controls">
+20:            <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+21:          </div>
+22:        </div>
+23:    
+24:        <% if @article.errors.any? %>
+25:          <div id="error_explanation">
+26:            <h2>
+27:              <%= pluralize(@article.errors.count, "error") %> prohibited
+28:              this article from being saved:
+29:            </h2>
+30:            <ul>
+31:              <% @article.errors.full_messages.each do |msg| %>
+32:                <li><%= msg %></li>
+33:              <% end %>
+34:            </ul>
+35:          </div>
+36:        <% end %>
+37:        
+38:        <div class="form-actions">
+39:          <%= form.submit 'Update Post', class: 'btn btn-primary' %>
+40:        </div>
+41:      <% end %>
+42:    </div>
+  
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:7
+Started GET "/articles/new" for ::1 at 2020-05-01 13:44:35 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 0.8ms | Allocations: 1429)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1798)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 3012)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="form">
+  <%= form_with model: @article, local: true do |form| %>
+    
+    <div class="control-group">
+      <%= if @article.title %>
+        <h1>Edit Blog</h1>
+      <% end %>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :title, class: "control-label" %>
+      <div class="controls">
+        <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :description, class: "control-label"%>
+      <div class="controls">
+        <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+      </div>
+    </div>
+
+    <% if @article.errors.any? %>
+      <div id="error_explanation">
+        <h2>
+          <%= pluralize(@article.errors.count, "error") %> prohibited
+          this article from being saved:
+        </h2>
+        <ul>
+          <% @article.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    
+    <div class="form-actions">
+      <%= form.submit 'Update Post', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
+):
+1:    <div class="form">
+2:      <%= form_with model: @article, local: true do |form| %>
+3:        
+4:        <div class="control-group">
+5:          <%= if @article.title %>
+6:            <h1>Edit Blog</h1>
+7:          <% end %>
+8:        </div>
+9:    
+10:        <div class="control-group">
+11:          <%= form.label :title, class: "control-label" %>
+12:          <div class="controls">
+13:            <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+14:          </div>
+15:        </div>
+16:    
+17:        <div class="control-group">
+18:          <%= form.label :description, class: "control-label"%>
+19:          <div class="controls">
+20:            <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+21:          </div>
+22:        </div>
+23:    
+24:        <% if @article.errors.any? %>
+25:          <div id="error_explanation">
+26:            <h2>
+27:              <%= pluralize(@article.errors.count, "error") %> prohibited
+28:              this article from being saved:
+29:            </h2>
+30:            <ul>
+31:              <% @article.errors.full_messages.each do |msg| %>
+32:                <li><%= msg %></li>
+33:              <% end %>
+34:            </ul>
+35:          </div>
+36:        <% end %>
+37:        
+38:        <div class="form-actions">
+39:          <%= form.submit 'Update Post', class: 'btn btn-primary' %>
+40:        </div>
+41:      <% end %>
+42:    </div>
+  
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')', expecting then or ';' or '\n'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:7
+Started GET "/articles/new" for ::1 at 2020-05-01 13:44:43 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 1429)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1798)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3012)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="form">
+  <%= form_with model: @article, local: true do |form| %>
+    
+    <div class="control-group">
+      <%= if @article? %>
+        <h1>Edit Blog</h1>
+      <% end %>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :title, class: "control-label" %>
+      <div class="controls">
+        <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= form.label :description, class: "control-label"%>
+      <div class="controls">
+        <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+      </div>
+    </div>
+
+    <% if @article.errors.any? %>
+      <div id="error_explanation">
+        <h2>
+          <%= pluralize(@article.errors.count, "error") %> prohibited
+          this article from being saved:
+        </h2>
+        <ul>
+          <% @article.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    
+    <div class="form-actions">
+      <%= form.submit 'Update Post', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
+):
+1:    <div class="form">
+2:      <%= form_with model: @article, local: true do |form| %>
+3:        
+4:        <div class="control-group">
+5:          <%= if @article? %>
+6:            <h1>Edit Blog</h1>
+7:          <% end %>
+8:        </div>
+9:    
+10:        <div class="control-group">
+11:          <%= form.label :title, class: "control-label" %>
+12:          <div class="controls">
+13:            <%= form.text_field :title, class: "form-control", placeholder: "Enter a title" %></p>
+14:          </div>
+15:        </div>
+16:    
+17:        <div class="control-group">
+18:          <%= form.label :description, class: "control-label"%>
+19:          <div class="controls">
+20:            <%= form.text_area :text, class: "form-control", placeholder: "Enter a body for your article", rows: "9" %></p>
+21:          </div>
+22:        </div>
+23:    
+24:        <% if @article.errors.any? %>
+25:          <div id="error_explanation">
+26:            <h2>
+27:              <%= pluralize(@article.errors.count, "error") %> prohibited
+28:              this article from being saved:
+29:            </h2>
+30:            <ul>
+31:              <% @article.errors.full_messages.each do |msg| %>
+32:                <li><%= msg %></li>
+33:              <% end %>
+34:            </ul>
+35:          </div>
+36:        <% end %>
+37:        
+38:        <div class="form-actions">
+39:          <%= form.submit 'Update Post', class: 'btn btn-primary' %>
+40:        </div>
+41:      <% end %>
+42:    </div>
+  
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:5: syntax error, unexpected ')'
+app/views/articles/_form.html.erb:7: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:41: syntax error, unexpected end, expecting ')'
+app/views/articles/_form.html.erb:44: syntax error, unexpected end, expecting ')'
+app/views/articles/new.html.erb:7
+Started GET "/articles/new" for ::1 at 2020-05-01 13:44:53 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.1ms | Allocations: 1025)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 571)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 10802)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:47:30 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1568)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1936)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3143)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"articles", :id=>nil}, missing required keys: [:id]):
+    2:   <%= form_with model: @article, local: true do |form| %>
+    3:     
+    4:     <div class="control-group">
+    5:       <%= title 'Edit article', edit_article_path(@article) %> |
+    6:       <%= title 'New article' %>
+    7:     </div>
+    8: 
+  
+app/views/articles/_form.html.erb:5
+app/views/articles/_form.html.erb:2
+app/views/articles/new.html.erb:7
+Started GET "/articles/new" for ::1 at 2020-05-01 13:47:48 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1012)
+  Rendered articles/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 571)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 10788)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:48:02 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 1013)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 10775)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:49:59 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 571)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 10783)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:50:31 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 1013)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 10791)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:50:51 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 10782)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:50:55 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1379)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 10783)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:51:28 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 571)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 10771)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:52:27 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.9ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1380)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 349)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 572)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms | Allocations: 10789)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:52:41 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 10792)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:53:00 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.2ms | Allocations: 1011)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 344)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 23ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 10773)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:53:01 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms | Allocations: 9099)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:53:04 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.8ms | Allocations: 640)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 735)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 8624)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:53:11 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"RFs/gHmRX7Cl4rlR9WN48xQeK6Wq9RbUk6biKY/1RIC4zDhZ263IredY9t4MgnhBWM+3z+oDVX+E5z5dJNR8cg==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.9ms | Allocations: 920)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 9.7ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 3.2ms | Allocations: 467)
+Completed 200 OK in 33ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 10002)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:54:11 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.2ms | Allocations: 10478)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:54:12 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.6ms | Allocations: 1012)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9417)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:54:13 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"/P85Kf8cxtVoDnwMB+/SeMnknqUebuO3SlTMVZI7z9oAaD7wXSBRyCq0M4P+DtLKhTUCz16YoBxdFRAhORr3KA==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.2ms | Allocations: 920)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 466)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 10000)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:54:48 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 571)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.1ms | Allocations: 10467)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:54:49 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.1ms | Allocations: 1013)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 9417)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:54:50 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"+Ym70K++m0vJ4rJ8xBCBpIoFsZdNKv05+a0l1GbhgIwFHrwJDYIMVotY/fM98YEWxtQt/Q3cvpLu7PmgzcC4fg==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.7ms | Allocations: 920)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 2.5ms | Allocations: 466)
+Completed 200 OK in 23ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 9994)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:55:07 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 571)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.2ms | Allocations: 10481)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:55:08 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.9ms | Allocations: 1016)
+  Rendered articles/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 466)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 9415)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:55:09 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"xfu0o5pUjD3pVK1/V6/tLiTEGOYcaNt6yu05L/+wFjc5bLN6OGgbIKvu4vCuTu2caBWEjFyemNHdrOVbVJEuxQ==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.3ms | Allocations: 920)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 466)
+Completed 200 OK in 36ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 9996)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:55:42 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 571)
+Completed 200 OK in 47ms (Views: 42.8ms | ActiveRecord: 0.2ms | Allocations: 10461)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:55:43 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 1016)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1387)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 9430)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:55:44 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"wELEUO5VBLBYRtAbtutGBRyYofVIPFkc4014A4nZokM81cOJTGmTrRr8n5RPCka3UEk9nwjKGrf0DKR3IviasQ==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save"}
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.9ms | Allocations: 920)
+  Rendered articles/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1011)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 22ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 10008)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:56:02 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"vFIq7xZ2cE6wzi/0qkgWt+/iRxgNx21qHQkprN61diGv7C8YhZMsYyTJ/t3yT00AEtHuLYLvFhL1P0ABvViEEg==", "article"=>{"title"=>"asdasdasdasdasd", "text"=>""}, "commit"=>"Save"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `create'
+  [1m[36mArticle Create (1.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asdasdasdasdasd"], ["text", ""], ["created_at", "2020-05-01 18:56:02.674522"], ["updated_at", "2020-05-01 18:56:02.674522"]]
+  ↳ app/controllers/articles_controller.rb:24:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `create'
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 11ms (ActiveRecord: 2.8ms | Allocations: 2464)
+
+
+Started GET "/articles/4" for ::1 at 2020-05-01 13:56:02 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 3.2ms | Allocations: 1100)
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 4]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 1.1ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2770)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.5ms | Allocations: 11279)
+
+
+Started GET "/articles/4/edit" for ::1 at 2020-05-01 13:56:17 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 683)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.9ms | Allocations: 911)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 23ms (Views: 19.2ms | ActiveRecord: 0.3ms | Allocations: 9450)
+
+
+Started PATCH "/articles/4" for ::1 at 2020-05-01 13:56:20 -0500
+Processing by ArticlesController#update as HTML
+  Parameters: {"authenticity_token"=>"VJeRh7Td++OeBGOvTgXxnKwbwchRz83wl9n2H5gOfDMRtQCJV+GIJl94J4DgAUgUvVRj7aCPeWd6dQwh9q670g==", "article"=>{"title"=>"asdasdasdasdasd", "text"=>"asdasdasdadasdadasd"}, "commit"=>"Save", "id"=>"4"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:34:in `update'
+  [1m[36mArticle Update (0.3ms)[0m  [1m[33mUPDATE "articles" SET "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["text", "asdasdasdadasdadasd"], ["updated_at", "2020-05-01 18:56:20.204119"], ["id", 4]]
+  ↳ app/controllers/articles_controller.rb:34:in `update'
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:34:in `update'
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 17ms (ActiveRecord: 7.1ms | Allocations: 3154)
+
+
+Started GET "/articles/4" for ::1 at 2020-05-01 13:56:20 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 1.4ms | Allocations: 872)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 4]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.2ms | Allocations: 102)
+  Rendered articles/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 197)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms | Allocations: 10197)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:56:37 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.2ms | Allocations: 8806)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 13:56:40 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.7ms | Allocations: 638)
+  Rendered articles/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 733)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 8625)
+
+
+Started POST "/articles" for ::1 at 2020-05-01 13:57:17 -0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"authenticity_token"=>"HNTcm6joVYFYkhpnqpYB/vC4Bo9K7Wu6J8IXPD3HXCjgQ9tCCtTCnBooVehTdwFMvGma5QobKBEwg8tIluZk2g==", "article"=>{"title"=>"Angular JS", "text"=>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\r\n\r\n\r\nWhere does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32."}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `create'
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Angular JS"], ["text", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\r\n\r\n\r\nWhere does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32."], ["created_at", "2020-05-01 18:57:17.345771"], ["updated_at", "2020-05-01 18:57:17.345771"]]
+  ↳ app/controllers/articles_controller.rb:24:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:24:in `create'
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 11ms (ActiveRecord: 1.9ms | Allocations: 2482)
+
+
+Started GET "/articles/5" for ::1 at 2020-05-01 13:57:17 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 1.5ms | Allocations: 871)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 5]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.2ms | Allocations: 102)
+  Rendered articles/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1834)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 197)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 466)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.2ms | Allocations: 10197)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:57:39 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1067)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.2ms | Allocations: 8921)
+
+
+Started DELETE "/articles/4" for ::1 at 2020-05-01 13:57:58 -0500
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PkagOHg5S34pk8oOsAXSPQPZsLUDhxp1GUsUrmOmfOkt+KXP69wXU72UGyfoAomK/uoZgIyvYQ3xfX0DAEuO2g==", "id"=>"4"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:43:in `destroy'
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 4]]
+  ↳ app/controllers/articles_controller.rb:43:in `destroy'
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/articles_controller.rb:43:in `destroy'
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:43:in `destroy'
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 16ms (ActiveRecord: 6.8ms | Allocations: 3450)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:57:58 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 949)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 466)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms | Allocations: 8804)
+
+
+Started GET "/articles/1/edit" for ::1 at 2020-05-01 13:58:01 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.5ms | Allocations: 679)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 4.1ms | Allocations: 774)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 197)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 466)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 9167)
+
+
+Started PATCH "/articles/1" for ::1 at 2020-05-01 13:58:03 -0500
+Processing by ArticlesController#update as HTML
+  Parameters: {"authenticity_token"=>"GxQOM9es/yuvH2KQgq07jKeVdpuFzPdGGUGjDASTXe9QovTx+PUJe6Gh/RcgysOWW6pB7L7/lDXOFS9jIOUaBA==", "article"=>{"title"=>"Test", "text"=>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n"}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 850)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 941)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 197)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 466)
+Completed 200 OK in 18ms (Views: 11.9ms | ActiveRecord: 0.3ms | Allocations: 10397)
+
+
+Started PATCH "/articles/1" for ::1 at 2020-05-01 13:58:06 -0500
+Processing by ArticlesController#update as HTML
+  Parameters: {"authenticity_token"=>"CfYoRbQs/E2KPXHoQc2tRShYhXTyvVsXBNWA0swFtxEaSC2yJ8mgYB46oMEZyvby1WssQX2VIG/s4+l/r+hFIg==", "article"=>{"title"=>"Tests", "text"=>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n"}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:34:in `update'
+  [1m[36mArticle Update (0.4ms)[0m  [1m[33mUPDATE "articles" SET "title" = ?, "text" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["title", "Tests"], ["text", "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n"], ["updated_at", "2020-05-01 18:58:06.543932"], ["id", 1]]
+  ↳ app/controllers/articles_controller.rb:34:in `update'
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:34:in `update'
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 20ms (ActiveRecord: 6.7ms | Allocations: 3090)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 13:58:06 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 1.4ms | Allocations: 871)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.3ms | Allocations: 102)
+  Rendered articles/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1834)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 197)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.2ms | Allocations: 10187)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:58:08 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 950)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms | Allocations: 8799)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 13:59:21 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1169)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2343)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="jumbotron text-center">
+    <div class="container">
+        <div class="jumbotron_heading">
+          <h1 class="display-4">Listing Articles</h1>
+          <p">Check it out to our article list. 🙂</p>
+        </div>
+    </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 auto_height">
+        <%= link_to('New article', new_article_path, :class => 'btn btn-large btn-primary')  %>
+      </div>
+    </div>
+    <div class="row">
+      <% @articles.each do |article| %>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><%= article.title %></h5>
+              <p class="card-text"><%= article.text, length: 25, omission: '... (continued)' %></p>
+              <hr>
+              <%= link_to 'Details', article_path(article) %>
+              <%= link_to 'Edit', edit_article_path(article) %>
+              <%= link_to 'Delete', article_path(article),
+                method: :delete,
+                data: { confirm: 'Are you sure?' } %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+):
+1:    <div class="jumbotron text-center">
+2:        <div class="container">
+3:            <div class="jumbotron_heading">
+4:              <h1 class="display-4">Listing Articles</h1>
+5:              <p">Check it out to our article list. 🙂</p>
+6:            </div>
+7:        </div>
+8:    </div>
+9:    
+10:    <section>
+11:      <div class="container">
+12:        <div class="row">
+13:          <div class="col-12 auto_height">
+14:            <%= link_to('New article', new_article_path, :class => 'btn btn-large btn-primary')  %>
+15:          </div>
+16:        </div>
+17:        <div class="row">
+18:          <% @articles.each do |article| %>
+19:            <div class="col-xs-12 col-sm-6 col-md-4">
+20:              <div class="card">
+21:                <div class="card-body">
+22:                  <h5 class="card-title"><%= article.title %></h5>
+23:                  <p class="card-text"><%= article.text, length: 25, omission: '... (continued)' %></p>
+24:                  <hr>
+25:                  <%= link_to 'Details', article_path(article) %>
+26:                  <%= link_to 'Edit', edit_article_path(article) %>
+27:                  <%= link_to 'Delete', article_path(article),
+28:                    method: :delete,
+29:                    data: { confirm: 'Are you sure?' } %>
+30:                </div>
+31:              </div>
+32:            </div>
+33:          <% end %>
+34:        </div>
+35:      </div>
+36:    </section>
+  
+app/views/articles/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+app/views/articles/index.html.erb:23: syntax error, unexpected tLABEL, expecting '='
+Started GET "/articles" for ::1 at 2020-05-01 14:00:01 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.8ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 3.2ms | Allocations: 571)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.1ms | Allocations: 10622)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 14:01:26 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1244)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 3.3ms | Allocations: 571)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.2ms | Allocations: 10604)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 14:01:40 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 345)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 571)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.2ms | Allocations: 10601)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-01 14:01:58 -0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.1ms | Allocations: 1015)
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1381)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 466)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9417)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 14:02:01 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 466)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 8550)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 14:02:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 10.0ms | Allocations: 466)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 8542)
+
+
+Started GET "/others/index" for ::1 at 2020-05-01 14:02:12 -0500
+Processing by OthersController#index as HTML
+  Rendering others/index.html.erb within layouts/application
+  Rendered others/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 466)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 7872)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 14:02:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 192)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 466)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 7848)
+
+
+Started GET "/welcome/index" for ::1 at 2020-05-01 14:03:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 349)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 571)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 9473)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 14:03:49 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 466)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.1ms | Allocations: 9683)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 14:03:52 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 3.1ms | Allocations: 1490)
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.6ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3150)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 201)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 466)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.3ms | Allocations: 11656)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 14:05:13 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 2.4ms | Allocations: 1177)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.5ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 354)
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 571)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.3ms | Allocations: 12698)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 14:05:20 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 3.1ms | Allocations: 1174)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.5ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2839)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 354)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 571)
+Completed 200 OK in 27ms (Views: 22.8ms | ActiveRecord: 0.4ms | Allocations: 12712)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 14:05:31 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 1.8ms | Allocations: 1205)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.5ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2863)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 354)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 0.8ms | Allocations: 12724)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 14:05:35 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 1.8ms | Allocations: 1208)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 0.7ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2866)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 354)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 571)
+Completed 200 OK in 26ms (Views: 20.7ms | ActiveRecord: 0.5ms | Allocations: 12730)
+
+
+Started GET "/articles/1" for ::1 at 2020-05-01 14:06:16 -0500
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/show.html.erb within layouts/application
+  Rendered comments/_form.html.erb (Duration: 1.7ms | Allocations: 1064)
+  [1m[36mComment Load (0.1ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = ?[0m  [["article_id", 1]]
+  ↳ app/views/articles/show.html.erb:27
+  Rendered collection of comments/_comment.html.erb [1 times] (Duration: 1.1ms | Allocations: 254)
+  Rendered articles/show.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2722)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 354)
+  Rendered layouts/_footer.html.erb (Duration: 2.6ms | Allocations: 571)
+Completed 200 OK in 46ms (Views: 39.3ms | ActiveRecord: 1.5ms | Allocations: 12590)
+
+
+Started GET "/articles/1/edit" for ::1 at 2020-05-01 14:06:53 -0500
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:55:in `get_article_by_id'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 1057)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 203)
+  Rendered layouts/_footer.html.erb (Duration: 11.9ms | Allocations: 466)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.1ms | Allocations: 9961)
+
+
+Started GET "/articles" for ::1 at 2020-05-01 14:06:59 -0500
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1250)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 193)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 466)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.2ms | Allocations: 9252)
+
+
