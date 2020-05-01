@@ -1,0 +1,10 @@
+<nav class="navbar navbar-light">
+  <div class="container">
+    <span class="navbar-brand mb-0 h1">Blog</span>
+    <div class="justify-content-end">
+      <%= link_to 'Home', controller: 'welcome' %>
+      <%= link_to 'About', controller: 'others' %>
+      <%= link_to('Last articles', articles_path, :class => 'btn btn-large btn-primary')  %>
+    </div>
+  </div>
+</nav>
